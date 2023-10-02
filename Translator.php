@@ -33,7 +33,7 @@ use yii\helpers\ArrayHelper;
  * ```
  * @author Leandro Gehlen <leandrogehlen@gmail.com>
  */
-class Translator extends Object
+class Translator extends BaseObject
 {
     private $_where;
     private $_params = [];
