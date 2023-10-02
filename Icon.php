@@ -11,7 +11,7 @@ use yii\base\BaseObject;
  * @see http://mistic100.github.io/jQuery-QueryBuilder/#icons
  * @author Leandro Gehlen <leandrogehlen@gmail.com>
  */
-class Icon extends Object implements Optionable
+class Icon extends BaseObject implements Optionable
 {
     use OptionTrait;
 
