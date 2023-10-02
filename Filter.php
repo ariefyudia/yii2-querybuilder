@@ -11,7 +11,7 @@ use yii\base\BaseObject;
  * @see http://mistic100.github.io/jQuery-QueryBuilder/#filters
  * @author Leandro Gehlen <leandrogehlen@gmail.com>
  */
-class Filter extends Object implements Optionable {
+class Filter extends BaseObject implements Optionable {
 
     use OptionTrait;
 
