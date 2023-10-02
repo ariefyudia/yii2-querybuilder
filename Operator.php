@@ -12,7 +12,7 @@ use yii\base\BaseObject;
  * @see http://mistic100.github.io/jQuery-QueryBuilder/#operators
  * @author Leandro Gehlen <leandrogehlen@gmail.com>
  */
-class Operator extends Object implements Optionable
+class Operator extends BaseObject implements Optionable
 {
     use OptionTrait;
 
