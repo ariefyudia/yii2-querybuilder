@@ -11,7 +11,7 @@ use yii\base\BaseObject;
  * @see http://mistic100.github.io/jQuery-QueryBuilder/#validation
  * @author Leandro Gehlen <leandrogehlen@gmail.com>
  */
-class Validation extends Object implements Optionable
+class Validation extends BaseObject implements Optionable
 {
     use OptionTrait;
 
